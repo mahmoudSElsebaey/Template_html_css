@@ -21,6 +21,7 @@ header {
     background-color: white;
     box-shadow: 5px 0px 5px #000;
     font-family: "Times New Roman", Georgia, Serif;
+    z-index: 1000;
 }
 
 header nav {
@@ -117,6 +118,7 @@ header a:hover {
     background-image: url("../images/tablesetting2.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    opacity: .8;
 }
 
 .about_section_container .right_section {
@@ -160,13 +162,69 @@ header a:hover {
 
 .about_section_container .right_section .right_section_info .paragraph_top span {
     background-color: rgb(224, 233, 233);
-   
+
 }
 
-.menu_section_container{
+.line_btween_sections{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+.menu_section_container {
     width: 100%;
     height: 700px;
     display: flex;
     flex-direction: row;
-    background-color: rgb(250, 0, 0);
+    margin-top: 50px;
+    /* background-color: rgb(241, 211, 42); */
+}
+
+.menu_section_container .menu_left_section {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid royalblue; */
+}
+
+.menu_section_container .menu_left_section .menu_left_section_info {
+    width: 80%;
+    height: 90%;
+    margin-top: 8%;
+    margin-left: 20%;
+    line-height: 2.2;
+    /* background-color: #fff;
+    border: 2px solid rgb(128, 0, 255); */
+}
+
+.menu_section_container .menu_left_section .menu_left_section_info h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.menu_section_container .menu_left_section .menu_left_section_info h3 {
+    letter-spacing: 5px;
+}
+
+.menu_section_container .menu_left_section .menu_left_section_info p { 
+    color: rgb(169, 165, 165);
+}
+
+.menu_section_container .menu_right_section{
+    width: 50%;
+    height: 100%;
+    /* border: 3px solid rgb(214, 240, 23);
+    background-color: burlywood; */
+}
+
+.menu_section_container .menu_right_section .menu_right_section_img{
+    width: 80%;
+    height: 92%;
+    margin-top: 8%;
+    margin-left: 8%;
+    background-image: url("../images/tablesetting.jpg");
+    background-repeat: no-repeat;
+    opacity: .8;
 }
